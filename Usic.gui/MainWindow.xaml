@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Usic.gui"
         mc:Ignorable="d"
-        Title="Usic: A Music Player" Height="450" Width="800">
+        Title="Usic: A Music Player" Height="720" Width="960" WindowStartupLocation="CenterScreen" MinWidth="450" MinHeight="500">
     <Grid>
         <TextBlock Margin="0,0,0,0" Text="Usic" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Name="btnOpenAudioFile" Click="btnOpenAudioFile_Click" HorizontalAlignment="Center" VerticalAlignment="Center">Open Audio file</Button>
 
-        
     </Grid>
 </Window>
